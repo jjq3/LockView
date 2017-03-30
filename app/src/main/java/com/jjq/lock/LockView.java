@@ -100,7 +100,7 @@ public class LockView extends RelativeLayout {
                         Log.i(TAG, "event.getX()" + event.getX() + "event.getY()" + event.getY());
                         height = (int) (event.getRawY() - 50);
 
-                        System.out.println("v.getTop()" + v.getTop() + "event.getBottom()" + v.getBottom() + "v.getLeft()" + v.getLeft() + "v.getRight" + v.getRight());
+                        System.out.println("v.getTop()" + v.getTop() + "v.getBottom()" + v.getBottom() + "v.getLeft()" + v.getLeft() + "v.getRight" + v.getRight());
                         left = v.getLeft();
                         right = v.getRight();
                         top = v.getTop();
